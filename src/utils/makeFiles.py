@@ -2,11 +2,11 @@ from pathlib import Path
 
 def write_file(path: Path, content: str, force: bool):
     if path.exists() and not force:
-        print(f"Skipping existing file: {path}")
+        print(f"Skipping existing file: {path.name}")
         return
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
-    print(f"Wrote: {path}")
+    print(f"Created {path.name}")
 
 def create_structure(target: Path):
     assets_css = target / "assets" / "css"

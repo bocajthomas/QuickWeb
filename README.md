@@ -1,9 +1,11 @@
 # QuickWeb
-A python tool designed to quickly set up a web project 
+A Python-based CLI tool designed to rapidly structure a web project
 
-# Requrements 
-- `python`: version 3.12.10
+## Requirements
+- **Python**: Version 3.10 or higher (`3.12.10` recommended)
 
-# Usage 
-1. open `cmd` then type ```git clone https://github.com/bocajthomas/quick-web```
-2. run the script by typing ```py src/run.py``` in `cmd`
+## Quick Start
+1. Head over to the [Releases Page](https://github.com/bocajthomas/QuickWeb/releases/latest).
+2. Download the source code archive (`Source code.zip` or `.tar.gz`).
+3. Extract the ZIP file into your desired directory and open your terminal/cmd inside that folder.
+4. Run the tool by `py src/run.py`.
